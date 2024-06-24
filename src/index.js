@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Activities from './Activities';
+import { ButtonColors } from './ButtonColors';
+import FetchWithIntervals from './components/FetchWithIntervals';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Activities />
+    < FetchWithIntervals/>
   </React.StrictMode>
 );
 
